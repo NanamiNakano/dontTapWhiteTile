@@ -1,0 +1,8 @@
+name: DTWT
+version: '${version}'
+main: com.thynanami.plugin.dtwt.PluginMain
+api-version: '1.20'
+authors: ["Nanami Nakano"]
+description: 感觉不如原神
+libraries:
+  - org.jetbrains.kotlin:kotlin-stdlib:1.9.0
