@@ -4,5 +4,17 @@ main: com.thynanami.plugin.dtwt.PluginMain
 api-version: '1.20'
 authors: ["Nanami Nakano"]
 description: 感觉不如原神
+website: github.com/NanamiNakano/DTWT
 libraries:
   - org.jetbrains.kotlin:kotlin-stdlib:1.9.0
+
+commands:
+  dtwt:
+    description: DTWT main command
+    usage: "/dtwt [set/cancel]"
+  dtwt set:
+    description: setup DTWT
+    usage: /dtwt set
+  dtwt cancel:
+    description: cancel setup DTWT
+    usage: /dtwt cancel
